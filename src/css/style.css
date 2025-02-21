@@ -1,0 +1,58 @@
+.video-principal {
+    margin-left: 35px;
+    margin-top: 38px;
+    margin-bottom: 10px;
+}
+
+.informations {
+    width: 543px;
+    margin-left: 35px;
+}
+
+.informations h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.informations h4 {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.informations p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.aside .propaganda{
+    font-weight: 300;
+    font-size: 11px;
+    position: absolute;
+    
+}
+
+.aside .videos{
+    margin-bottom: 10px;
+}
+
+.main {
+    grid-area: secao-principal;
+  }
+
+  .aside {
+    grid-area: aside;
+    margin-left: 35px;
+    margin-top: 38px;
+    margin-bottom: 10px;
+  }
+
+  .container{
+    width: 900px;
+    height: 415px;
+    display: grid;
+    grid: 
+    ". secao-principal aside" 900px;
+    grid-gap: 5px;
+  }
