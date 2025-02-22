@@ -26,11 +26,19 @@
     font-size: 16px;
 }
 
+.aside{
+    position: relative;
+}
+
 .aside .propaganda{
     font-weight: 300;
     font-size: 11px;
-    position: absolute;
-    
+    position: absolute;   
+    width: 100%; 
+    text-align: center; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
 }
 
 .aside .videos{
